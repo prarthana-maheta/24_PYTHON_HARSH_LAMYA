@@ -46,7 +46,7 @@ str1 = 'I am a Royal student, I also love Python'
 # case 
 # casing methods of strings 
 
-str1 = 'I am aa Royal student, I also love Python ROYAL'
+
 
 
 # print(str1[7:].upper())
@@ -61,15 +61,40 @@ str1 = 'I am aa Royal student, I also love Python ROYAL'
 
 # print(str1.upper().count('Y', 18))
 
+# formatting string
+
+# a = 12
+# b=23
+# c=67
+
+# output = '12' + '23' + '67' = 'value'
+
+# print(a,"+",b,"+",c,"=",a+b+c)
+
+# str1 =f" '{a}' + '{b}' + '{c}' = '{a+b+c}'"
+# print(str1)
+# print(type(str1))
+
+# URL 
+
+
+# https://facebook.com/harsh007/
 
 
 
+# alignment method 
+
+# str1="The End"
+
+# print(str1.center(50,'*'))
+# print(str1.rjust(100,'*'))
+# print(str1.ljust(100,'*'))
 
 
-
-
-
-
+# conditional methods
+str1 = 'I am aa Royal student, I also love Python ROYAL'
+print(str1.startswith('I', 5))
+print(str1.endswith('U',8,24))
 
 
 
